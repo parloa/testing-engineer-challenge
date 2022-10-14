@@ -1,0 +1,39 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #001c70;
+  padding: 16px 48px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+
+  .title {
+    color: #ffffff;
+    margin-top: 0px !important;
+  }
+}
+
+.content {
+  background-color: #dcdcdc;
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  margin-bottom: auto;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ffffff;
+  max-width: 50%;
+  border-radius: 4px;
+  flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.footer {
+  height: 4em;
+  padding: 24px;
+}

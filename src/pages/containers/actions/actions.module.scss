@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  justify-content: flex-end;
+}
+
+.select {
+  text-transform: capitalize;
+  min-width: 120px;
+}
+
+.option {
+  text-transform: capitalize;
+}
