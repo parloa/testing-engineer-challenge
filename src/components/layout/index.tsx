@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Card, Layout, Typography } from "antd";
 
 import styles from "./styles/layout.module.scss";
@@ -16,14 +16,14 @@ const AppLayout = ({ children }: Props) => (
         🐛🐞🪲
       </Typography.Title>
       <Typography.Title className={styles.title} level={3}>
-        QA Engineer Challenge
+        Quality Engineering Challenge
       </Typography.Title>
     </Header>
     <Content className={styles.content}>
       <Card className={styles.card}>{children}</Card>
     </Content>
     <Footer className={styles.footer}>
-      <Typography.Text code>Have Fun Finding Some Bugs</Typography.Text>
+      <Typography.Text code>Have Fun !!!</Typography.Text>
     </Footer>
   </Layout>
 );
